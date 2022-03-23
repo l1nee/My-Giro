@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face { 
+    font-family: 'qwe'; 
+    src: url('../media/fonts/GardensC.otf'); 
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+#container {
+    height: 56vw;
+    background-image: url(../media/img/fon.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vw 48vw;
+}
+
+#container1 {
+    height: 65vw;
+    margin-top: 5vw;
+    background-image: url(../media/img/about-us-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo {
+    top: 10vw;
+    left: 18vw;
+    position: absolute;
+    display: inline-block;
+}
+
+.info_main {
+    width: 40vw;
+    height: 30vw;
+    display: inline-block;
+    position: relative;
+    left: 55vw;
+    top: 10vw;
+}
+
+.pl_mn {
+    width: 31vw;
+    height: 30vw;
+    display: inline-block;
+    position: relative;
+    left: 8vw;
+    top: 15vw;
+}
+
+.info_main > .text {
+    font-family: 'qwe';
+    font-size: 22pt;
+    bottom: 15vw;
+    left: 45vw;
+    word-wrap: break-word;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    color: white;
+}
+
+.text1 {
+    font-family: 'qwe';
+    font-size: 16pt;
+    bottom: 15vw;
+    left: 5vw;
+    word-wrap:break-word;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    color: white;
+}
+
+#container1 > .text1 {
+    font-family: 'qwe';
+    font-size: 16pt;
+    bottom: 15vw;
+    left: 5vw;
+    word-wrap:break-word;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    color: white;
+}
+
+#container1 > h1 {
+    font-family: 'qwe';
+    font-size: 36pt;
+    bottom: 15vw;
+    left: 5vw;
+    word-wrap:break-word;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    color: white;
+}
+
+.tlphn_grid {
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-gap: 5px;
+    grid-auto-rows: minmax(60px, auto);
+    position: absolute;
+    left: 78vw;
+}
+
+.tlphn_grid > .btn {
+    position: relative;
+    align-self: end;
+    margin-bottom: 7px;
+}
+
+.btn > a {
+    text-decoration: none!important;
+    font-family: 'qwe';
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 32px;
+    padding: 5px;
+    color: white;
+    transition: .5s;
+    position: relative;
+}
+
+.obv {
+    position: relative;
+    top: 25.5px;
+    left: -3.1px;
+    width: 90px;
+    height: 34px;
+    border: 1px solid #2baaf4;
+    border-radius: 32px;
+}
+
+.btn > a:hover {
+    background-color: rgb(48, 123, 189);
+}
+
+.btn_inf > p {
+    margin-top: 5px;
+    font-family: 'qwe';
+    font-size: 11pt;
+    /* word-wrap:break-word; */
+    /* text-align: center!important; */
+    text-transform: uppercase!important;
+    color: white;
+}
+
+.btn {
+    position: relative;
+    left: 7.8vw;
+    bottom: 2.8vw;
+}
