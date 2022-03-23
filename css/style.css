@@ -13,27 +13,72 @@ body {
 }
 
 #container {
-    margin: 0.5vw;
+    /* margin: 0.5vw; */
     height: 56vw;
     background-image: url(../media/img/fon.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background-size: 100vw 48vw;
+    /* background-attachment: fixed; */
+}
+
+#container1 {
+    /* margin: 0.5vw; */
+    height: 65vw;
+    margin-top: 5vw;
+    background-image: url(../media/img/about-us-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
 }
 
 .logo {
     top: 10vw;
     left: 18vw;
     position: absolute;
+    display: inline-block;
 }
 
-.text {
-    font-family: 'qwe';
-    border: 1px solid black;
-    font-size: 90px;
+.info_main {
+    width: 40vw;
+    height: 30vw;
+    /* margin: 0 auto; */
+    display: inline-block;
     position: relative;
-    margin-left: 5vw;
-    bottom: 3vw;
-    /* display:inline; */
+    left: 55vw;
+    top: 10vw;
+}
+
+.info_main > .text {
+    font-family: 'qwe';
+    font-size: 22pt;
+    bottom: 15vw;
+    left: 45vw;
+    word-wrap:break-word;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    color: white;
+}
+
+.text1 {
+    font-family: 'qwe';
+    font-size: 16pt;
+    bottom: 15vw;
+    left: 5vw;
+    word-wrap:break-word;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    color: white;
+}
+
+#container1 > h1 {
+    font-family: 'qwe';
+    font-size: 36pt;
+    bottom: 15vw;
+    left: 5vw;
+    word-wrap:break-word;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    color: white;
 }
